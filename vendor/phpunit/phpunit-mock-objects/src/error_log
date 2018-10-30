@@ -1,0 +1,4 @@
+[09-Apr-2018 02:33:03 UTC] PHP Fatal error:  Interface 'PHPUnit\Framework\MockObject\Stub\MatcherCollection' not found in /home/productdemo/public_html/payclone/vendor/phpunit/phpunit-mock-objects/src/InvocationMocker.php on line 26
+[09-Apr-2018 02:33:33 UTC] PHP Fatal error:  Interface 'PHPUnit\Framework\MockObject\Verifiable' not found in /home/productdemo/public_html/payclone/vendor/phpunit/phpunit-mock-objects/src/Invokable.php on line 18
+[09-Apr-2018 02:34:26 UTC] PHP Fatal error:  Interface 'PHPUnit\Framework\MockObject\Matcher\Invocation' not found in /home/productdemo/public_html/payclone/vendor/phpunit/phpunit-mock-objects/src/Matcher.php on line 30
+[09-Apr-2018 02:37:17 UTC] PHP Fatal error:  Interface 'PHPUnit\Framework\SelfDescribing' not found in /home/productdemo/public_html/payclone/vendor/phpunit/phpunit-mock-objects/src/Stub.php on line 20

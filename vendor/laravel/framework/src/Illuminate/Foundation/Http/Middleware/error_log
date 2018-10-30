@@ -1,0 +1,3 @@
+[13-Mar-2018 00:46:07 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\TransformsRequest' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php on line 5
+[13-Mar-2018 00:46:43 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\TransformsRequest' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php on line 5
+[13-Mar-2018 00:47:16 UTC] PHP Fatal error:  Trait 'Illuminate\Support\InteractsWithTime' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php on line 14

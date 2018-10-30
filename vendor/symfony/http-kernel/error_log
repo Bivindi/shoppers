@@ -1,0 +1,12 @@
+[01-Apr-2018 14:12:53 UTC] PHP Fatal error:  Class 'Symfony\Component\BrowserKit\Client' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Client.php on line 31
+[01-Apr-2018 14:15:24 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpKernel.php on line 39
+[01-Apr-2018 14:15:24 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\KernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Kernel.php on line 48
+[01-Apr-2018 14:15:25 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/KernelInterface.php on line 25
+[06-Apr-2018 18:32:20 UTC] PHP Fatal error:  Class 'Symfony\Component\BrowserKit\Client' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Client.php on line 31
+[06-Apr-2018 18:37:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpKernel.php on line 39
+[06-Apr-2018 18:39:04 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\KernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Kernel.php on line 48
+[06-Apr-2018 18:40:08 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/KernelInterface.php on line 25
+[08-Apr-2018 01:56:24 UTC] PHP Fatal error:  Class 'Symfony\Component\BrowserKit\Client' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Client.php on line 31
+[08-Apr-2018 02:04:44 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpKernel.php on line 39
+[08-Apr-2018 02:05:14 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\KernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Kernel.php on line 48
+[08-Apr-2018 02:05:14 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/KernelInterface.php on line 25

@@ -1,0 +1,2 @@
+[08-Apr-2018 19:06:15 UTC] PHP Fatal error:  Interface 'GuzzleHttp\ClientInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/guzzle/src/Client.php on line 25
+[08-Apr-2018 19:11:18 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\PromisorInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/guzzle/src/Pool.php on line 19

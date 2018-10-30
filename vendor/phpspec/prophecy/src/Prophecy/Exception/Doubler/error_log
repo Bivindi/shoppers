@@ -1,0 +1,1 @@
+[11-Apr-2018 20:05:32 UTC] PHP Fatal error:  Interface 'Prophecy\Exception\Doubler\DoublerException' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Exception/Doubler/DoubleException.php on line 16

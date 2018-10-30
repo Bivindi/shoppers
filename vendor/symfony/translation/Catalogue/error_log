@@ -1,0 +1,3 @@
+[09-Apr-2018 17:27:46 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Catalogue\OperationInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Catalogue/AbstractOperation.php on line 27
+[09-Apr-2018 17:27:46 UTC] PHP Fatal error:  Class 'Symfony\Component\Translation\Catalogue\AbstractOperation' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Catalogue/MergeOperation.php on line 23
+[09-Apr-2018 17:29:28 UTC] PHP Fatal error:  Class 'Symfony\Component\Translation\Catalogue\AbstractOperation' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Catalogue/TargetOperation.php on line 24

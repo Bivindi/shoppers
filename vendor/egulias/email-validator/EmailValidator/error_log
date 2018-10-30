@@ -1,0 +1,1 @@
+[08-Apr-2018 18:40:36 UTC] PHP Fatal error:  Class 'Doctrine\Common\Lexer\AbstractLexer' not found in /home/productdemo/public_html/payclone/vendor/egulias/email-validator/EmailValidator/EmailLexer.php on line 7

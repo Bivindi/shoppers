@@ -1,0 +1,2 @@
+[09-Apr-2018 12:02:00 UTC] PHP Fatal error:  Trait 'Symfony\Component\DependencyInjection\ContainerAwareTrait' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Bundle/Bundle.php on line 29
+[09-Apr-2018 12:03:26 UTC] PHP Fatal error:  Interface 'Symfony\Component\DependencyInjection\ContainerAwareInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Bundle/BundleInterface.php on line 23

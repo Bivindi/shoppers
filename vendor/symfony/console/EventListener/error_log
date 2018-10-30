@@ -1,0 +1,1 @@
+[09-Apr-2018 07:48:05 UTC] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventSubscriberInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/EventListener/ErrorListener.php on line 25

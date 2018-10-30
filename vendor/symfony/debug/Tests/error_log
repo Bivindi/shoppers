@@ -1,0 +1,6 @@
+[06-Apr-2018 15:40:45 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\ExceptionHandler' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Tests/MockExceptionHandler.php on line 16
+[09-Apr-2018 10:21:13 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Tests/DebugClassLoaderTest.php on line 18
+[09-Apr-2018 10:21:13 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Tests/ErrorHandlerTest.php on line 26
+[09-Apr-2018 10:21:13 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Tests/ExceptionHandlerTest.php on line 22
+[09-Apr-2018 10:24:24 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\ExceptionHandler' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Tests/MockExceptionHandler.php on line 16
+[02-May-2018 18:46:30 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Tests/DebugClassLoaderTest.php on line 18

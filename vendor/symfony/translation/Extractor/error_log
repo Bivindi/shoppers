@@ -1,0 +1,2 @@
+[09-Apr-2018 18:06:39 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Extractor\ExtractorInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Extractor/ChainExtractor.php on line 21
+[09-Apr-2018 18:08:02 UTC] PHP Fatal error:  Class 'Symfony\Component\Translation\Extractor\AbstractFileExtractor' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Extractor/PhpExtractor.php on line 22

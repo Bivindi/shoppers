@@ -1,0 +1,2 @@
+[09-Apr-2018 07:29:41 UTC] PHP Fatal error:  Interface 'Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 27
+[11-Apr-2018 19:09:38 UTC] PHP Fatal error:  Interface 'Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php on line 27

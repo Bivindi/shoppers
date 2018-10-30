@@ -1,0 +1,2 @@
+[09-Apr-2018 07:20:52 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Command/HelpCommand.php on line 25
+[09-Apr-2018 07:20:53 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Command/ListCommand.php on line 26

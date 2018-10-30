@@ -1,0 +1,5 @@
+[09-Apr-2018 14:55:12 UTC] PHP Fatal error:  Interface 'Symfony\Component\Process\Exception\ExceptionInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/process/Exception/InvalidArgumentException.php on line 19
+[09-Apr-2018 14:55:42 UTC] PHP Fatal error:  Interface 'Symfony\Component\Process\Exception\ExceptionInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/process/Exception/LogicException.php on line 19
+[09-Apr-2018 14:56:48 UTC] PHP Fatal error:  Class 'Symfony\Component\Process\Exception\RuntimeException' not found in /home/productdemo/public_html/payclone/vendor/symfony/process/Exception/ProcessFailedException.php on line 21
+[09-Apr-2018 14:57:18 UTC] PHP Fatal error:  Class 'Symfony\Component\Process\Exception\RuntimeException' not found in /home/productdemo/public_html/payclone/vendor/symfony/process/Exception/ProcessTimedOutException.php on line 21
+[09-Apr-2018 14:58:19 UTC] PHP Fatal error:  Interface 'Symfony\Component\Process\Exception\ExceptionInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/process/Exception/RuntimeException.php on line 19

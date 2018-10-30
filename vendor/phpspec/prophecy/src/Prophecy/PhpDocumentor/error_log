@@ -1,0 +1,2 @@
+[06-Apr-2018 20:05:59 UTC] PHP Fatal error:  Interface 'Prophecy\PhpDocumentor\MethodTagRetrieverInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/PhpDocumentor/LegacyClassTagRetriever.php on line 22
+[12-Apr-2018 03:46:59 UTC] PHP Fatal error:  Interface 'Prophecy\PhpDocumentor\MethodTagRetrieverInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/PhpDocumentor/ClassTagRetriever.php on line 23

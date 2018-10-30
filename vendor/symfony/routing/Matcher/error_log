@@ -1,0 +1,7 @@
+[31-Mar-2018 02:53:48 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[09-Apr-2018 17:03:24 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[09-Apr-2018 17:05:40 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[09-Apr-2018 17:07:00 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\Matcher\UrlMatcherInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/UrlMatcher.php on line 29
+[09-Apr-2018 17:07:30 UTC] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/UrlMatcherInterface.php on line 24
+[12-Apr-2018 05:41:34 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/TraceableUrlMatcher.php on line 24
+[01-May-2018 05:17:27 UTC] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20

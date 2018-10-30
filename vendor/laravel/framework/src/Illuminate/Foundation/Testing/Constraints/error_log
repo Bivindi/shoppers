@@ -1,0 +1,2 @@
+[13-Mar-2018 00:54:00 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\Constraint\Constraint' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Constraints/HasInDatabase.php on line 8
+[13-Mar-2018 00:54:18 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\Constraint\Constraint' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Constraints/SoftDeletedInDatabase.php on line 8

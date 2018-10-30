@@ -1,0 +1,2 @@
+[04-Apr-2018 09:19:10 UTC] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallPrediction.php on line 27
+[04-Apr-2018 11:50:45 UTC] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Prediction/NoCallsPrediction.php on line 25

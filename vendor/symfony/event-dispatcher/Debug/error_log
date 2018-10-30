@@ -1,0 +1,2 @@
+[09-Apr-2018 10:30:46 UTC] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcherInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php on line 27
+[09-Apr-2018 10:31:54 UTC] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventDispatcherInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php on line 21

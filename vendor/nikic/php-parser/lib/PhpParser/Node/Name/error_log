@@ -1,0 +1,2 @@
+[12-Mar-2018 19:55:45 UTC] PHP Fatal error:  Class 'PhpParser\Node\Name' not found in /home/productdemo/public_html/payclone/vendor/nikic/php-parser/lib/PhpParser/Node/Name/FullyQualified.php on line 5
+[12-Mar-2018 19:55:56 UTC] PHP Fatal error:  Class 'PhpParser\Node\Name' not found in /home/productdemo/public_html/payclone/vendor/nikic/php-parser/lib/PhpParser/Node/Name/Relative.php on line 5

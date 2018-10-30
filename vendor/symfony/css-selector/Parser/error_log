@@ -1,0 +1,1 @@
+[09-Apr-2018 09:37:13 UTC] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/css-selector/Parser/Parser.php on line 28

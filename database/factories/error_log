@@ -1,0 +1,16 @@
+[01-Apr-2018 09:38:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/productdemo/public_html/payclone/database/factories/UserFactory.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/database/factories/UserFactory.php on line 16
+[06-Apr-2018 10:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/productdemo/public_html/payclone/database/factories/UserFactory.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/database/factories/UserFactory.php on line 16
+[07-Apr-2018 12:11:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/productdemo/public_html/payclone/database/factories/UserFactory.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/database/factories/UserFactory.php on line 16
+[07-Apr-2018 14:49:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/productdemo/public_html/payclone/database/factories/UserFactory.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/database/factories/UserFactory.php on line 16

@@ -1,0 +1,2 @@
+[09-Apr-2018 20:06:35 UTC] PHP Fatal error:  Class 'TheSeer\Tokenizer\Exception' not found in /home/productdemo/public_html/payclone/vendor/theseer/tokenizer/src/NamespaceUriException.php on line 4
+[09-Apr-2018 20:09:27 UTC] PHP Fatal error:  Class 'TheSeer\Tokenizer\Exception' not found in /home/productdemo/public_html/payclone/vendor/theseer/tokenizer/src/TokenCollectionException.php on line 4

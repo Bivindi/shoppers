@@ -1,0 +1,2 @@
+[09-Apr-2018 11:19:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Exception\RequestExceptionInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-foundation/Exception/ConflictingHeadersException.php on line 19
+[09-Apr-2018 11:21:53 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Exception\RequestExceptionInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-foundation/Exception/SuspiciousOperationException.php on line 18

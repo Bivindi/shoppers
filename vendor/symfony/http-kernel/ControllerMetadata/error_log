@@ -1,0 +1,1 @@
+[09-Apr-2018 12:31:01 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactoryInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadataFactory.php on line 19

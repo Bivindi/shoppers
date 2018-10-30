@@ -1,0 +1,12 @@
+[08-Apr-2018 16:03:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function embed() on null in /home/productdemo/public_html/payclone/resources/views/emails/order/order.blade.php:202
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/resources/views/emails/order/order.blade.php on line 202
+[08-Apr-2018 16:05:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function embed() on null in /home/productdemo/public_html/payclone/resources/views/emails/order/order_place.blade.php:808
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/resources/views/emails/order/order_place.blade.php on line 808
+[08-Apr-2018 16:06:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function embed() on null in /home/productdemo/public_html/payclone/resources/views/emails/order/order_update.blade.php:183
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/resources/views/emails/order/order_update.blade.php on line 183

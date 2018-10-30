@@ -1,0 +1,1 @@
+[08-Apr-2018 18:53:05 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/productdemo/public_html/payclone/vendor/fideloper/proxy/src/TrustedProxyServiceProvider.php on line 9

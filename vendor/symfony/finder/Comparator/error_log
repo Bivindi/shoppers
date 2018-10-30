@@ -1,0 +1,2 @@
+[09-Apr-2018 10:48:25 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/symfony/finder/Comparator/DateComparator.php on line 19
+[09-Apr-2018 10:49:17 UTC] PHP Fatal error:  Class 'Symfony\Component\Finder\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/symfony/finder/Comparator/NumberComparator.php on line 35

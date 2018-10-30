@@ -1,0 +1,2 @@
+[12-Mar-2018 20:05:35 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/productdemo/public_html/payclone/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/MagicConstTest.php on line 5
+[12-Mar-2018 20:05:43 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/productdemo/public_html/payclone/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/StringTest.php on line 5

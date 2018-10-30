@@ -1,0 +1,7 @@
+.notifyjs-corner {
+    z-index: 1000000 !important;
+}
+.error
+{
+	color: #e74b24 !important;
+}

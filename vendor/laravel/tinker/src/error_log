@@ -1,0 +1,1 @@
+[08-Apr-2018 20:59:47 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/productdemo/public_html/payclone/vendor/laravel/tinker/src/TinkerServiceProvider.php on line 10

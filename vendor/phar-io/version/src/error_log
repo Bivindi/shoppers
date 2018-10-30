@@ -1,0 +1,10 @@
+[08-Apr-2018 23:28:30 UTC] PHP Fatal error:  Interface 'PharIo\Version\VersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/AbstractVersionConstraint.php on line 13
+[08-Apr-2018 23:29:24 UTC] PHP Fatal error:  Class 'PharIo\Version\AbstractVersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/AndVersionConstraintGroup.php on line 13
+[08-Apr-2018 23:29:56 UTC] PHP Fatal error:  Interface 'PharIo\Version\VersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/AnyVersionConstraint.php on line 13
+[08-Apr-2018 23:30:46 UTC] PHP Fatal error:  Class 'PharIo\Version\AbstractVersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/ExactVersionConstraint.php on line 13
+[08-Apr-2018 23:32:03 UTC] PHP Fatal error:  Class 'PharIo\Version\AbstractVersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/GreaterThanOrEqualToVersionConstraint.php on line 13
+[08-Apr-2018 23:32:33 UTC] PHP Fatal error:  Interface 'PharIo\Version\Exception' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/InvalidVersionException.php on line 4
+[08-Apr-2018 23:33:26 UTC] PHP Fatal error:  Class 'PharIo\Version\AbstractVersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/OrVersionConstraintGroup.php on line 13
+[08-Apr-2018 23:34:48 UTC] PHP Fatal error:  Class 'PharIo\Version\AbstractVersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/SpecificMajorAndMinorVersionConstraint.php on line 13
+[08-Apr-2018 23:35:19 UTC] PHP Fatal error:  Class 'PharIo\Version\AbstractVersionConstraint' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/SpecificMajorVersionConstraint.php on line 13
+[08-Apr-2018 23:36:09 UTC] PHP Fatal error:  Interface 'PharIo\Version\Exception' not found in /home/productdemo/public_html/payclone/vendor/phar-io/version/src/UnsupportedVersionConstraintException.php on line 13

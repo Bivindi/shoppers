@@ -1,0 +1,5 @@
+[09-Apr-2018 08:23:27 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Input\Input' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Input/ArgvInput.php on line 41
+[09-Apr-2018 08:23:58 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Input\Input' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Input/ArrayInput.php on line 26
+[09-Apr-2018 08:24:58 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Input\InputInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Input/Input.php on line 28
+[09-Apr-2018 08:29:25 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Input\InputInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Input/StreamableInputInterface.php on line 20
+[09-Apr-2018 08:29:57 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Input\ArgvInput' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Input/StringInput.php on line 25

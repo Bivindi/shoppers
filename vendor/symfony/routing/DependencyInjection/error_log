@@ -1,0 +1,1 @@
+[09-Apr-2018 16:30:46 UTC] PHP Fatal error:  Trait 'Symfony\Component\DependencyInjection\Compiler\PriorityTaggedServiceTrait' not found in /home/productdemo/public_html/payclone/vendor/symfony/routing/DependencyInjection/RoutingResolverPass.php on line 26

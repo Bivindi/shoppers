@@ -1,0 +1,5 @@
+[08-Apr-2018 23:07:58 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: creating archive "/home/productdemo/public_html/payclone/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly in /home/productdemo/public_html/payclone/vendor/paragonie/random_compat/other/build_phar.php:12
+Stack trace:
+#0 /home/productdemo/public_html/payclone/vendor/paragonie/random_compat/other/build_phar.php(12): Phar->__construct('/home/productde...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home/productdemo/public_html/payclone/vendor/paragonie/random_compat/other/build_phar.php on line 12

@@ -1,0 +1,1 @@
+[09-Apr-2018 17:36:25 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\DataCollector\DataCollector' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/DataCollector/TranslationDataCollector.php on line 23

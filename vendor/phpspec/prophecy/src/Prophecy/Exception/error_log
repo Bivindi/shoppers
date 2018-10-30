@@ -1,0 +1,1 @@
+[12-Apr-2018 03:42:10 UTC] PHP Fatal error:  Interface 'Prophecy\Exception\Exception' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Exception/InvalidArgumentException.php on line 14

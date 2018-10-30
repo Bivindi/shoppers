@@ -1,0 +1,4 @@
+[01-Apr-2018 09:53:41 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/productdemo/public_html/payclone/tests/Feature/ExampleTest.php on line 8
+[06-Apr-2018 11:05:50 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/productdemo/public_html/payclone/tests/Feature/ExampleTest.php on line 8
+[06-Apr-2018 20:10:05 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/productdemo/public_html/payclone/tests/Feature/ExampleTest.php on line 8
+[07-Apr-2018 12:42:54 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/productdemo/public_html/payclone/tests/Feature/ExampleTest.php on line 8

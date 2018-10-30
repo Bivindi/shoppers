@@ -1,0 +1,1 @@
+[10-Apr-2018 21:16:52 UTC] PHP Fatal error:  Interface 'Prophecy\Prophecy\ProphecyInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Prophecy/ObjectProphecy.php on line 30

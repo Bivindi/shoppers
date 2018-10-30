@@ -1,0 +1,177 @@
+.btn-add-cart {
+    cursor: pointer;
+}
+
+.buttonqty {
+    cursor: pointer !important;
+}
+
+.select-color {
+    cursor: pointer;
+}
+
+.product-color {
+    margin-bottom: 30px;
+}
+
+.color-choose div {
+    display: inline-block;
+}
+
+.color-choose input[type="radio"] {
+    display: none;
+}
+
+.color-choose input[type="radio"] + label span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.modal-content iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.color-choose input[type="radio"] + label span {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+}
+
+.color-choose input[type="radio"]:checked + label span {
+    background-image: url(https://designmodo.com/demo/product-page/images/check-icn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wishlist {
+    cursor: pointer;
+}
+
+.wishlisted-icon {
+    background: #ff3366 !important;
+}
+
+.wishlisted {
+    color: red;
+}
+
+.product-comments {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.compare-btn {
+    font-size: 14px;
+    border-radius: 2px;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 40px;
+    width: 144px;
+    background-color: #ff2666;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    z-index: 10000;
+}
+
+.compare-filed {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 10000;
+}
+
+.G934d8 {
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 10px;
+}
+
+._1j7Tzv {
+    display: inline-block;
+    position: relative;
+}
+
+.compare-cont {
+    position: absolute;
+    top: 10px;
+    margin-left: 14px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 0;
+    pointer-events: none;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.review {
+    display: block;
+}
+
+.rate-product {
+    padding: 5px 15px;
+    border-top: 1px solid #eaeaea;
+    float: left;
+    margin-top: 15px;
+}
+
+#btn-send-review {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    padding: 0;
+    font-weight: normal;
+    background: #666;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    padding: 10px 25px;
+}
+
+.form-selector {
+    padding-bottom: 10px;
+}
+
+.ratiyo-rating {
+    display: inline-block;
+}
+
+#product-video {
+    border: 1px solid #eaeaea;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.add-cart {
+    height: 35px;
+    width: auto;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F36;
+}
+
+.add-cart:hover {
+    color: #fff;
+    opacity: 0.8;
+}

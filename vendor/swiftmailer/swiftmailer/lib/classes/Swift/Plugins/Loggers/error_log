@@ -1,0 +1,2 @@
+[13-Mar-2018 00:01:35 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php on line 16
+[13-Mar-2018 00:01:37 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Logger' not found in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php on line 16

@@ -1,0 +1,3 @@
+[31-Mar-2018 04:09:35 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Promise/ReturnPromise.php on line 22
+[31-Mar-2018 21:50:39 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Promise/CallbackPromise.php on line 24
+[28-Apr-2018 22:26:20 UTC] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/phpspec/prophecy/src/Prophecy/Promise/ReturnArgumentPromise.php on line 23

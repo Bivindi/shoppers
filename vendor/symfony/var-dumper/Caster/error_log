@@ -1,0 +1,15 @@
+[01-Apr-2018 11:44:20 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\ConstStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/ClassStub.php on line 19
+[02-Apr-2018 05:25:23 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\ConstStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[07-Apr-2018 06:29:42 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[07-Apr-2018 16:36:01 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[09-Apr-2018 19:03:18 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\EnumStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/ArgsStub.php on line 21
+[09-Apr-2018 19:04:46 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\ConstStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/ClassStub.php on line 19
+[09-Apr-2018 19:05:50 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21
+[09-Apr-2018 19:06:20 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\CutStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[09-Apr-2018 19:07:20 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/CutStub.php on line 21
+[09-Apr-2018 19:10:19 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/EnumStub.php on line 21
+[09-Apr-2018 19:11:51 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\EnumStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/FrameStub.php on line 19
+[09-Apr-2018 19:13:22 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\ConstStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/LinkStub.php on line 19
+[09-Apr-2018 19:21:14 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/TraceStub.php on line 21
+[26-Apr-2018 18:40:29 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Caster\CutStub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/CutArrayStub.php on line 19
+[26-Apr-2018 19:56:16 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\Stub' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Caster/ConstStub.php on line 21

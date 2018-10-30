@@ -1,0 +1,1 @@
+[11-Apr-2018 21:01:02 UTC] PHP Fatal error:  Class 'Psy\VersionUpdater\GitHubChecker' not found in /home/productdemo/public_html/payclone/vendor/psy/psysh/src/Psy/VersionUpdater/IntervalChecker.php on line 16

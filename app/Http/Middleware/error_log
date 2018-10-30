@@ -1,0 +1,15 @@
+[01-Apr-2018 11:54:41 UTC] PHP Fatal error:  Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/EncryptCookies.php on line 7
+[01-Apr-2018 11:55:12 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/TrimStrings.php on line 7
+[01-Apr-2018 11:55:12 UTC] PHP Fatal error:  Class 'Fideloper\Proxy\TrustProxies' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/TrustProxies.php on line 8
+[01-Apr-2018 11:55:12 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/VerifyCsrfMiddleware.php on line 7
+[01-Apr-2018 11:55:12 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[06-Apr-2018 13:30:01 UTC] PHP Fatal error:  Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/EncryptCookies.php on line 7
+[06-Apr-2018 13:31:02 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/TrimStrings.php on line 7
+[06-Apr-2018 13:31:02 UTC] PHP Fatal error:  Class 'Fideloper\Proxy\TrustProxies' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/TrustProxies.php on line 8
+[06-Apr-2018 13:31:02 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/VerifyCsrfMiddleware.php on line 7
+[06-Apr-2018 13:31:02 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[07-Apr-2018 16:10:38 UTC] PHP Fatal error:  Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/EncryptCookies.php on line 7
+[07-Apr-2018 16:12:08 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/TrimStrings.php on line 7
+[07-Apr-2018 16:13:08 UTC] PHP Fatal error:  Class 'Fideloper\Proxy\TrustProxies' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/TrustProxies.php on line 8
+[07-Apr-2018 16:13:08 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/VerifyCsrfMiddleware.php on line 7
+[07-Apr-2018 16:13:09 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/productdemo/public_html/payclone/app/Http/Middleware/VerifyCsrfToken.php on line 7

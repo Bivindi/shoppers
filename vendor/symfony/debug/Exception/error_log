@@ -1,0 +1,5 @@
+[09-Apr-2018 10:00:35 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\Exception\FatalErrorException' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Exception/ClassNotFoundException.php on line 19
+[09-Apr-2018 10:03:35 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\Exception\FatalErrorException' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Exception/FatalThrowableError.php on line 19
+[09-Apr-2018 10:05:16 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\Exception\FatalErrorException' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Exception/OutOfMemoryException.php on line 19
+[09-Apr-2018 10:06:31 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\Exception\FatalErrorException' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Exception/UndefinedFunctionException.php on line 19
+[09-Apr-2018 10:07:01 UTC] PHP Fatal error:  Class 'Symfony\Component\Debug\Exception\FatalErrorException' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/Exception/UndefinedMethodException.php on line 19

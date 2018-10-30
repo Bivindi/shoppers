@@ -1,0 +1,1 @@
+[09-Apr-2018 14:06:53 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Log/Logger.php on line 23

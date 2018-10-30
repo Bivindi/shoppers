@@ -1,0 +1,1 @@
+[09-Apr-2018 10:33:17 UTC] PHP Fatal error:  Interface 'Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php on line 25

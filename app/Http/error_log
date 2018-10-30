@@ -1,0 +1,4 @@
+[01-Apr-2018 09:31:45 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/productdemo/public_html/payclone/app/Http/Kernel.php on line 8
+[06-Apr-2018 10:30:51 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/productdemo/public_html/payclone/app/Http/Kernel.php on line 8
+[06-Apr-2018 16:43:40 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/productdemo/public_html/payclone/app/Http/Kernel.php on line 8
+[07-Apr-2018 11:59:05 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/productdemo/public_html/payclone/app/Http/Kernel.php on line 8

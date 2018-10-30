@@ -1,0 +1,1 @@
+[09-Apr-2018 06:44:07 UTC] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/productdemo/public_html/payclone/vendor/softon/indipay/src/IndipayServiceProvider.php on line 6

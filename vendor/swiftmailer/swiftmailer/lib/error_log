@@ -1,0 +1,5 @@
+[09-Apr-2018 06:58:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Swift_Preferences' not found in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/preferences.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/preferences.php on line 9
+[09-Apr-2018 07:01:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php on line 138

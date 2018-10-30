@@ -1,0 +1,12 @@
+[09-Apr-2018 04:34:29 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/ArrayComparator.php on line 16
+[09-Apr-2018 04:37:15 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ObjectComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/DOMNodeComparator.php on line 19
+[09-Apr-2018 04:37:45 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ObjectComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/DateTimeComparator.php on line 16
+[09-Apr-2018 04:38:33 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\NumericComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/DoubleComparator.php on line 16
+[09-Apr-2018 04:39:03 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ObjectComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/ExceptionComparator.php on line 16
+[09-Apr-2018 04:41:16 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ObjectComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/MockObjectComparator.php on line 16
+[09-Apr-2018 04:41:47 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ScalarComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/NumericComparator.php on line 16
+[09-Apr-2018 04:42:48 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\ArrayComparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/ObjectComparator.php on line 16
+[09-Apr-2018 04:43:18 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/ResourceComparator.php on line 16
+[09-Apr-2018 04:44:05 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/ScalarComparator.php on line 16
+[09-Apr-2018 04:44:36 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/SplObjectStorageComparator.php on line 16
+[09-Apr-2018 04:45:27 UTC] PHP Fatal error:  Class 'SebastianBergmann\Comparator\Comparator' not found in /home/productdemo/public_html/payclone/vendor/sebastian/comparator/src/TypeComparator.php on line 16

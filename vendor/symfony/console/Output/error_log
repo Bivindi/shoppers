@@ -1,0 +1,6 @@
+[09-Apr-2018 08:38:24 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Output\Output' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Output/BufferedOutput.php on line 17
+[09-Apr-2018 08:39:21 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Output\StreamOutput' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Output/ConsoleOutput.php on line 30
+[09-Apr-2018 08:39:51 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Output\OutputInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Output/ConsoleOutputInterface.php on line 20
+[09-Apr-2018 08:40:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Output\OutputInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Output/NullOutput.php on line 25
+[09-Apr-2018 08:41:25 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Output\OutputInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Output/Output.php on line 30
+[09-Apr-2018 08:42:20 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Output\Output' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Output/StreamOutput.php on line 31

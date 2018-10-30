@@ -1,0 +1,8 @@
+[08-Apr-2018 19:22:06 UTC] PHP Fatal error:  Class 'GuzzleHttp\Promise\RejectionException' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/AggregateException.php on line 7
+[08-Apr-2018 19:22:53 UTC] PHP Fatal error:  Class 'GuzzleHttp\Promise\RejectionException' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/CancellationException.php on line 7
+[08-Apr-2018 19:22:53 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/Coroutine.php on line 43
+[08-Apr-2018 19:24:04 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\PromisorInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/EachPromise.php on line 8
+[08-Apr-2018 19:24:34 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/FulfilledPromise.php on line 10
+[08-Apr-2018 19:25:25 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/Promise.php on line 9
+[08-Apr-2018 19:27:13 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\PromiseInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/RejectedPromise.php on line 10
+[08-Apr-2018 19:28:01 UTC] PHP Fatal error:  Interface 'GuzzleHttp\Promise\TaskQueueInterface' not found in /home/productdemo/public_html/payclone/vendor/guzzlehttp/promises/src/TaskQueue.php on line 13

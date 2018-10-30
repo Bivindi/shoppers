@@ -1,0 +1,4 @@
+[08-Apr-2018 18:50:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Request' not found in /home/productdemo/public_html/payclone/vendor/fideloper/proxy/config/trustedproxy.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/vendor/fideloper/proxy/config/trustedproxy.php on line 66

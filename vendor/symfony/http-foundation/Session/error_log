@@ -1,0 +1,2 @@
+[09-Apr-2018 11:34:42 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-foundation/Session/Session.php on line 25
+[09-Apr-2018 11:36:14 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionBagInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-foundation/Session/SessionBagProxy.php on line 19

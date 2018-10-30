@@ -1,0 +1,1 @@
+[09-Apr-2018 17:32:26 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Command/XliffLintCommand.php on line 27

@@ -1,0 +1,6 @@
+[09-Apr-2018 14:22:53 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Tests/ClientTest.php on line 25
+[09-Apr-2018 14:30:20 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Tests/HttpKernelTest.php on line 31
+[09-Apr-2018 14:31:21 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Tests/KernelTest.php on line 32
+[09-Apr-2018 14:32:53 UTC] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Tests/Logger.php on line 16
+[09-Apr-2018 14:34:21 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\HttpKernel' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Tests/TestHttpKernel.php on line 21
+[09-Apr-2018 14:35:44 UTC] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Tests/UriSignerTest.php on line 17

@@ -1,0 +1,136 @@
+[01-Apr-2018 08:46:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/app.php on line 16
+[01-Apr-2018 08:46:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/broadcasting.php on line 18
+[01-Apr-2018 08:46:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/cache.php on line 18
+[01-Apr-2018 08:49:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/database.php on line 16
+[01-Apr-2018 08:50:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/filesystems.php on line 16
+[01-Apr-2018 08:52:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/indipay.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/indipay.php on line 18
+[01-Apr-2018 08:52:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/mail.php on line 19
+[01-Apr-2018 08:52:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/queue.php on line 18
+[01-Apr-2018 08:53:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/services.php on line 18
+[01-Apr-2018 08:53:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/session.php on line 19
+[01-Apr-2018 08:53:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/productdemo/public_html/payclone/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/view.php on line 17
+[06-Apr-2018 09:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/app.php on line 16
+[06-Apr-2018 09:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/broadcasting.php on line 18
+[06-Apr-2018 09:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/cache.php on line 18
+[06-Apr-2018 09:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/database.php on line 16
+[06-Apr-2018 09:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/filesystems.php on line 16
+[06-Apr-2018 09:50:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/indipay.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/indipay.php on line 18
+[06-Apr-2018 09:50:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/mail.php on line 19
+[06-Apr-2018 09:50:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/queue.php on line 18
+[06-Apr-2018 09:50:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/services.php on line 18
+[06-Apr-2018 09:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/session.php on line 19
+[06-Apr-2018 09:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/productdemo/public_html/payclone/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/view.php on line 17
+[07-Apr-2018 10:55:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/app.php on line 16
+[07-Apr-2018 10:56:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/broadcasting.php on line 18
+[07-Apr-2018 10:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/cache.php on line 18
+[07-Apr-2018 10:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/database.php on line 16
+[07-Apr-2018 10:57:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/filesystems.php on line 16
+[07-Apr-2018 10:58:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/indipay.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/indipay.php on line 18
+[07-Apr-2018 10:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/mail.php on line 19
+[07-Apr-2018 10:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/queue.php on line 18
+[07-Apr-2018 10:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/services.php on line 18
+[07-Apr-2018 10:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/session.php on line 19
+[07-Apr-2018 10:58:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/productdemo/public_html/payclone/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/view.php on line 17
+[13-Apr-2018 17:24:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/productdemo/public_html/payclone/config/indipay.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/config/indipay.php on line 18

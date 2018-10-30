@@ -1,0 +1,1 @@
+[09-Apr-2018 18:12:16 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Formatter\MessageFormatterInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Formatter/MessageFormatter.php on line 19

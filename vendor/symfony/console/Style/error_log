@@ -1,0 +1,2 @@
+[09-Apr-2018 08:51:29 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Output\OutputInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Style/OutputStyle.php on line 24
+[09-Apr-2018 08:52:25 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Style\OutputStyle' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Style/SymfonyStyle.php on line 33

@@ -1,0 +1,2 @@
+[09-Apr-2018 08:43:43 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Question\Question' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Question/ChoiceQuestion.php on line 21
+[09-Apr-2018 08:44:13 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Question\Question' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Question/ConfirmationQuestion.php on line 19

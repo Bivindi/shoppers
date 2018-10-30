@@ -1,0 +1,3 @@
+[09-Apr-2018 12:12:04 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/CacheWarmer/CacheWarmer.php on line 19
+[09-Apr-2018 12:12:35 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/CacheWarmer/CacheWarmerAggregate.php on line 21
+[09-Apr-2018 12:13:25 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheWarmer\WarmableInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/CacheWarmer/CacheWarmerInterface.php on line 19

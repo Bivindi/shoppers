@@ -1,0 +1,1 @@
+[09-Apr-2018 18:55:38 UTC] PHP Fatal error:  Interface 'Symfony\Component\Translation\Writer\TranslationWriterInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/translation/Writer/TranslationWriter.php on line 24

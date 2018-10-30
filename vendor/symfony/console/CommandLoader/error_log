@@ -1,0 +1,2 @@
+[09-Apr-2018 07:25:00 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\CommandLoader\CommandLoaderInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/CommandLoader/ContainerCommandLoader.php on line 13
+[09-Apr-2018 07:25:31 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\CommandLoader\CommandLoaderInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/CommandLoader/FactoryCommandLoader.php on line 21

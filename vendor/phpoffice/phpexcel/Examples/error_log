@@ -1,0 +1,48 @@
+[09-Apr-2018 01:28:10 Europe/London] PHP Warning:  require_once(../Build/PHPExcel.phar): failed to open stream: No such file or directory in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/01pharSimple.php on line 37
+[09-Apr-2018 01:28:10 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../Build/PHPExcel.phar' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/01pharSimple.php on line 37
+[09-Apr-2018 01:32:22 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; PclZip has a deprecated constructor in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php on line 190
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 36
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 40
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 51
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 91
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 117
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 131
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 137
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 142
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 146
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 152
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 166
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 177
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 190
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 202
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 207
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 266
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 270
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 276
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 283
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 292
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 305
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 316
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 323
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 328
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 333
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 338
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 345
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 354
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 358
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 362
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 366
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 375
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 384
+[09-Apr-2018 00:36:19 UTC] PHP Notice:  Use of undefined constant EOL - assumed 'EOL' in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/05featuredemo.inc.php on line 389
+[09-Apr-2018 01:43:25 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; PclZip has a deprecated constructor in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php on line 190
+[09-Apr-2018 01:56:31 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method PHPExcel_Reader_CSV::setLineEnding() in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/16csv.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/16csv.php on line 64
+[09-Apr-2018 01:59:13 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function getCell() on null in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet.php:1164
+Stack trace:
+#0 /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Examples/19namedrange.php(99): PHPExcel_Worksheet->getCell('PERSON!B1')
+#1 {main}
+  thrown in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet.php on line 1164
+[09-Apr-2018 02:21:33 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; PclZip has a deprecated constructor in /home/productdemo/public_html/payclone/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/PCLZip/pclzip.lib.php on line 190

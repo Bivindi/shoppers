@@ -1,0 +1,25 @@
+.mt20 {
+    margin-top: 5%;
+}
+
+.container {
+    padding: 50px;
+}
+
+.details {
+    margin-top: 37px;
+    text-align: center;
+    border-right: 2px solid #f3f3f3;
+}
+
+.details:last-child {
+    border-right: none;
+}
+
+.payment-details {
+    margin-top: 2%;
+}
+
+.panel-group .panel, .panel {
+    border-radius: 0px !important;
+}

@@ -1,0 +1,4 @@
+[01-Apr-2018 09:30:45 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/productdemo/public_html/payclone/app/Exceptions/Handler.php on line 10
+[06-Apr-2018 10:29:50 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/productdemo/public_html/payclone/app/Exceptions/Handler.php on line 10
+[06-Apr-2018 20:09:39 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/productdemo/public_html/payclone/app/Exceptions/Handler.php on line 10
+[07-Apr-2018 11:58:34 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/productdemo/public_html/payclone/app/Exceptions/Handler.php on line 10

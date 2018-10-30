@@ -1,0 +1,3 @@
+[01-Apr-2018 14:01:12 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/BufferingLogger.php on line 21
+[06-Apr-2018 18:09:56 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/BufferingLogger.php on line 21
+[08-Apr-2018 01:10:38 UTC] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/productdemo/public_html/payclone/vendor/symfony/debug/BufferingLogger.php on line 21

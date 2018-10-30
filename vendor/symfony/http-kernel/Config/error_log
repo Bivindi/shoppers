@@ -1,0 +1,2 @@
+[09-Apr-2018 12:16:31 UTC] PHP Fatal error:  Interface 'Symfony\Component\Config\Resource\SelfCheckingResourceInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Config/EnvParametersResource.php on line 23
+[09-Apr-2018 12:16:31 UTC] PHP Fatal error:  Class 'Symfony\Component\Config\FileLocator' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Config/FileLocator.php on line 22

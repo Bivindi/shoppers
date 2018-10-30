@@ -1,0 +1,4 @@
+[13-Mar-2018 00:28:35 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Presets\Preset' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/Bootstrap.php on line 5
+[13-Mar-2018 00:28:45 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Presets\Preset' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/None.php on line 7
+[13-Mar-2018 00:29:02 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Presets\Preset' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/React.php on line 8
+[13-Mar-2018 00:29:11 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Presets\Preset' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/Vue.php on line 8

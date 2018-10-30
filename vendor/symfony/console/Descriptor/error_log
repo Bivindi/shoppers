@@ -1,0 +1,5 @@
+[09-Apr-2018 07:33:28 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Descriptor\DescriptorInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Descriptor/Descriptor.php on line 27
+[09-Apr-2018 07:35:23 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Descriptor\Descriptor' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Descriptor/JsonDescriptor.php on line 27
+[09-Apr-2018 07:36:14 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Descriptor\Descriptor' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Descriptor/MarkdownDescriptor.php on line 29
+[09-Apr-2018 07:36:44 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Descriptor\Descriptor' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Descriptor/TextDescriptor.php on line 29
+[09-Apr-2018 07:37:41 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Descriptor\Descriptor' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Descriptor/XmlDescriptor.php on line 27

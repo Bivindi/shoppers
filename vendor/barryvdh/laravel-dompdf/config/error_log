@@ -1,0 +1,4 @@
+[08-Apr-2018 17:05:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/productdemo/public_html/payclone/vendor/barryvdh/laravel-dompdf/config/dompdf.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/productdemo/public_html/payclone/vendor/barryvdh/laravel-dompdf/config/dompdf.php on line 41

@@ -1,0 +1,1 @@
+[09-Apr-2018 14:10:44 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Profiler\ProfilerStorageInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/Profiler/FileProfilerStorage.php on line 19

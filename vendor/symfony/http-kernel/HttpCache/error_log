@@ -1,0 +1,6 @@
+[09-Apr-2018 13:56:32 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpCache\SurrogateInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php on line 24
+[09-Apr-2018 13:57:30 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\HttpCache\AbstractSurrogate' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpCache/Esi.php on line 28
+[09-Apr-2018 13:58:00 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpCache/HttpCache.php on line 28
+[09-Apr-2018 13:58:58 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpCache\ResponseCacheStrategyInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpCache/ResponseCacheStrategy.php on line 29
+[09-Apr-2018 14:00:26 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\HttpCache\AbstractSurrogate' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpCache/Ssi.php on line 22
+[09-Apr-2018 14:00:56 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpCache\StoreInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-kernel/HttpCache/Store.php on line 25

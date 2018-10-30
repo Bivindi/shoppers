@@ -1,0 +1,4 @@
+[01-Apr-2018 21:50:39 UTC] PHP Fatal error:  Interface 'Symfony\Component\VarDumper\Cloner\ClonerInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Cloner/AbstractCloner.php on line 22
+[09-Apr-2018 19:28:15 UTC] PHP Fatal error:  Interface 'Symfony\Component\VarDumper\Cloner\ClonerInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Cloner/AbstractCloner.php on line 22
+[09-Apr-2018 19:32:46 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\AbstractCloner' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Cloner/VarCloner.php on line 17
+[18-Apr-2018 20:26:46 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\AbstractCloner' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Cloner/VarCloner.php on line 17

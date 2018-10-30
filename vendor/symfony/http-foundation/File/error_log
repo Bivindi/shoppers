@@ -1,0 +1,2 @@
+[09-Apr-2018 11:27:56 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-foundation/File/Stream.php on line 19
+[09-Apr-2018 11:28:58 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home/productdemo/public_html/payclone/vendor/symfony/http-foundation/File/UploadedFile.php on line 25

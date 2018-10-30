@@ -1,0 +1,2 @@
+[13-Mar-2018 00:01:47 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php on line 16
+[13-Mar-2018 00:01:49 UTC] PHP Fatal error:  Interface 'Swift_Plugins_Reporter' not found in /home/productdemo/public_html/payclone/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php on line 16

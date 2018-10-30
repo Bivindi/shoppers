@@ -1,0 +1,5 @@
+[09-Apr-2018 07:41:53 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Event/ConsoleCommandEvent.php on line 19
+[09-Apr-2018 07:42:23 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Event/ConsoleErrorEvent.php on line 24
+[09-Apr-2018 07:43:24 UTC] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\Event' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Event/ConsoleEvent.php on line 24
+[09-Apr-2018 07:43:54 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Event/ConsoleExceptionEvent.php on line 27
+[09-Apr-2018 07:44:46 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Event/ConsoleTerminateEvent.php on line 23

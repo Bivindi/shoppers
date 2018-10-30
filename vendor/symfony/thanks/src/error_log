@@ -1,0 +1,1 @@
+[09-Apr-2018 17:24:37 UTC] PHP Fatal error:  Interface 'Composer\EventDispatcher\EventSubscriberInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/thanks/src/Thanks.php on line 27

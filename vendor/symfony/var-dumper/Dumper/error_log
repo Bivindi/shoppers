@@ -1,0 +1,5 @@
+[02-Apr-2018 22:07:38 UTC] PHP Fatal error:  Interface 'Symfony\Component\VarDumper\Dumper\DataDumperInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 22
+[04-Apr-2018 15:38:07 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Dumper\AbstractDumper' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Dumper/CliDumper.php on line 22
+[09-Apr-2018 19:37:09 UTC] PHP Fatal error:  Interface 'Symfony\Component\VarDumper\Dumper\DataDumperInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 22
+[09-Apr-2018 19:37:39 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Dumper\AbstractDumper' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Dumper/CliDumper.php on line 22
+[09-Apr-2018 19:39:09 UTC] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Dumper\CliDumper' not found in /home/productdemo/public_html/payclone/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 22

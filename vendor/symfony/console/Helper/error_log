@@ -1,0 +1,9 @@
+[09-Apr-2018 08:07:30 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\Helper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/DebugFormatterHelper.php on line 21
+[09-Apr-2018 08:08:01 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\Helper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/DescriptorHelper.php on line 27
+[09-Apr-2018 08:09:02 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\Helper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/FormatterHelper.php on line 21
+[09-Apr-2018 08:10:20 UTC] PHP Fatal error:  Interface 'Symfony\Component\Console\Helper\HelperInterface' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/Helper.php on line 21
+[09-Apr-2018 08:12:17 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\Helper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/InputAwareHelper.php on line 22
+[09-Apr-2018 08:13:17 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\Helper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/ProcessHelper.php on line 24
+[09-Apr-2018 08:15:10 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\Helper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/QuestionHelper.php on line 30
+[09-Apr-2018 08:16:11 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\QuestionHelper' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/SymfonyQuestionHelper.php on line 28
+[09-Apr-2018 08:19:00 UTC] PHP Fatal error:  Class 'Symfony\Component\Console\Helper\TableCell' not found in /home/productdemo/public_html/payclone/vendor/symfony/console/Helper/TableSeparator.php on line 19

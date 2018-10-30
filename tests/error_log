@@ -1,0 +1,3 @@
+[01-Apr-2018 09:02:57 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/productdemo/public_html/payclone/tests/TestCase.php on line 7
+[06-Apr-2018 09:58:17 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/productdemo/public_html/payclone/tests/TestCase.php on line 7
+[07-Apr-2018 11:09:47 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/productdemo/public_html/payclone/tests/TestCase.php on line 7

@@ -1,0 +1,2 @@
+[13-Mar-2018 00:10:27 UTC] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php on line 11
+[13-Mar-2018 00:10:32 UTC] PHP Fatal error:  Class 'Illuminate\Console\GeneratorCommand' not found in /home/productdemo/public_html/payclone/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php on line 9
