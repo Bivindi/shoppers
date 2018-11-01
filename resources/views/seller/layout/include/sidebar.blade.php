@@ -63,17 +63,27 @@
                         </ul>
                     </div>
                 </li>
+                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-invert-colors"></i> Category</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="{{ route('get:seller_add_category') }}">Add Category</a>
+                            </li>
+                            <li><a href="{{ route('get:seller_manage_category') }}">Manage Category</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i
-                                        class="mdi-action-invert-colors"></i> Category</a>
-                            <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="{{ route('get:seller_add_category') }}">Add Category</a>
-                                    </li>
-                                    <li><a href="{{ route('get:seller_manage_category') }}">Manage Category</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+                                class="mdi-action-invert-colors"></i> SubCategory</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="{{ route('get:seller_add_subcategory') }}">Add SubCategory</a>
+                            </li>
+                            <li><a href="{{ route('get:seller_manage_subcategory') }}">Manage SubCategory</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i
                                 class="mdi-action-invert-colors"></i> Add Sliders</a>
                     <div class="collapsible-body">

@@ -4,6 +4,8 @@
 @endsection
 @section('page-css')
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="{{ asset('assets/js/plugins/dropify/css/dropify.min.css') }}" type="text/css" rel="stylesheet"
           media="screen,projection">
     <style>
@@ -30,6 +32,15 @@
                 </div>
             </div>
         </div>
+        @if($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach($errors->all() as $e)
+                        <li>{{ $e }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <div class="container">
             <div id="basic-form" class="section">
                 <div class="row">
@@ -167,16 +178,94 @@
                             <div class="card-panel">
                                 <h4 class="header2">Holiday</h4>
                                 <div class="row">
-                                    <div id='cldr'></div>
-                                </div>
-                                <div class="row">
-                                    <ul class="fc-color-picker" id="color-chooser" style="display: inline-block;">
-                                        <li><a class="text-blue" style="color: blue" href="#"><i class="fa fa-square"></i>National holidays</a></li>
-                                        <li><a class="text-red" style="color: red;" href="#"><i class="fa fa-square"></i>Other holidays</a></li>
-                                    </ul>
+                                    <div class="col s3">
+                                        <div id="lnb">
+                                            <div class="lnb-new-schedule">
+                                                <button data-target="modal1" id="btn-new-schedule" type="button" class="btn btn-default btn-block modal-trigger" data-toggle="modal">New holliday</button>
+                                            </div>
+                                            <div id="lnb-calendars" class="lnb-calendars">
+                                                <div>
+                                                    <div class="lnb-calendars-item">
+                                                        <label>
+                                                            <input class="tui-full-calendar-checkbox-square" type="checkbox" value="all" checked="">
+                                                            <span></span>
+                                                            <strong>View all</strong>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div id="calendarList" class="lnb-calendars-d1">
+                                                    <div class="lnb-calendars-item">
+                                                        <label>
+                                                            <input type="checkbox" class="tui-full-calendar-checkbox-round" value="1" checked="">
+                                                            <span style="border-color: #9e5fff; background-color: #9e5fff;"></span>
+                                                            <span>Other holliday</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="lnb-calendars-item">
+                                                        <label>
+                                                            <input type="checkbox" class="tui-full-calendar-checkbox-round" value="8" checked="">
+                                                            <span style="border-color: #ff4040; background-color: #ff4040;"></span>
+                                                            <span>National Holidays</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="calendarList" class="lnb-calendars-d1"></div>
+                                    <div class="col s9">
+                                        <div id="menu">
+                                            <span id="menu-navi">
+                                                <button type="button" class="btn btn-default btn-sm move-day" data-action="move-today">Today</button>
+                                                <button type="button" class="btn btn-default btn-sm move-day" data-action="move-prev">
+                                                    <i class="material-icons" data-action="move-prev">chevron_left</i>
+                                                </button>
+                                                <button type="button" class="btn btn-default btn-sm move-day" data-action="move-next">
+                                                    <i class="material-icons" data-action="move-next">chevron_right</i>
+                                                </button>
+                                            </span>
+                                            <span id="renderRange" class="render-range">2018.11.11 ~  11.17</span>
+                                        </div>
+                                        <div id="calendar" style="height: 500px;"></div>
+                                    </div>
                                 </div>
                             </div>
 
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal modal-fixed-footer">
+                                <div class="modal-content">
+                                    <h4>Holliday details</h4>
+                                    <p>The informations entered in fields below are relative to the holliday informations</p>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input placeholder="Title" name="remarks" type="text">
+                                            <label for="remarks" class="active">Holliday title</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <input placeholder="Start date" name="starts" type="date">
+                                            <label for="starts" class="active">Beginning date</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <input placeholder="End date" name="ends" type="date">
+                                            <label for="ends" class="active">Ending date</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <select name="type">
+                                                <option value="other_holliday"><span style="border-color: #9e5fff; background-color: #9e5fff;"></span> Other holliday</option>
+                                                <option value="national_holliday"><span style="border-color: #ff4040; background-color: #ff4040;"></span> National holliday</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="modal-close waves-effect waves-green btn-flat">Cancel</button>
+                                    <button class="waves-effect waves-green btn-flat add-holliday">Save</button>
+                                </div>
+                            </div>
                             
                             <div class="card-panel">
                                 <h4 class="header2">Bank Details</h4> 
@@ -362,47 +451,78 @@
             });
         });
 
-        $('#cldr').fullCalendar({
-            header    : {
-                left  : 'prev,next today',
-                center: 'title',
-                right : 'month,agendaWeek,agendaDay'
-            },
-            /*dayClick: function() {
-                alert('a day has been clicked!');
-            },*/
-            editable  : true,
-            droppable : true,
-            drop      : function (date, allDay) { // this function is called when something is dropped
-                edate = date;
-                // retrieve the dropped element's stored Event Object
-                var originalEventObject = $(this).data('eventObject')
-                //id = $(this).attr('data-cli-id');
-
-                // we need to copy it, so that multiple events don't have a reference to the same object
-                var copiedEventObject = $.extend({}, originalEventObject)
-
-                // assign it the date that was reported
-                copiedEventObject.start           = date
-                copiedEventObject.allDay          = allDay
-                copiedEventObject.backgroundColor = $(this).css('background-color')
-                copiedEventObject.borderColor     = $(this).css('border-color')
-                // render the event on the calendar
-                // the last `true` argument determines if the event "sticks" (http://arshaw.com/fullcalendar/docs/event_rendering/renderEvent/)
-                //verifying if the currently dropped element comes today or next
-            
-                $('#calendar').fullCalendar('renderEvent', copiedEventObject, true)
-                etitle = copiedEventObject.title;
-            
-                //$('#modal-default').modal('toggle');
-
-                // is the "remove after drop" checkbox checked?
-                if ($('#drop-remove').is(':checked')) {
-                    // if so, remove the element from the "Draggable Events" list
-                    $(this).remove()
-                }
-
-            }
+        $(document).on('submit', '#holliday-form', function (e) {
+            e.preventDefault();
+            console.log($(".add-holliday").closest("form").serialise());
         })
+
+        var Calendar = tui.Calendar
+
+        var c = new Calendar('#calendar', {
+            defaultView: 'month',
+            taskView: ['milestone', 'task'],
+            scheduleView: true,
+            template: {
+                milestone: function(schedule) {
+                    return '<span style="color:red;"><i class="fa fa-flag"></i> ' + schedule.title + '</span>';
+                },
+                milestoneTitle: function() {
+                    return 'Milestone';
+                },
+                task: function(schedule) {
+                    return '&nbsp;&nbsp;#' + schedule.title;
+                },
+                taskTitle: function() {
+                    return '<label><input type="checkbox" />Task</label>';
+                },
+                allday: function(schedule) {
+                    return schedule.title + ' <i class="fa fa-refresh"></i>';
+                },
+                alldayTitle: function() {
+                    return 'All Day';
+                },
+                time: function(schedule) {
+                    return schedule.title + ' <i class="fa fa-refresh"></i>' + schedule.start;
+                }
+            },
+            week: {
+                daynames: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                startDayOfWeek: 0,
+                narrowWeekend: true
+            },
+            month: {
+                daynames: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                startDayOfWeek: 0,
+                narrowWeekend: true
+            },
+        });
+
+        $(".move-day").click(function(){
+            let action = $(this).attr("data-action")
+            switch(action){
+                case 'move-next' :  c.next();
+                                    break;
+                case 'move-prev' :  c.prev();
+                                    break;
+                case 'move-today':  c.today();
+                                    break;
+                default: return;
+            }
+        });
+
+        c.createSchedules([
+            @foreach($hollidays as $h)
+            <?php $dates = explode(",", $h->holiday_dates); ?>
+                {
+                    id: {{ $h->id }},
+                    calendarId: c.id,
+                    title: '{{ $h->remarks }}',
+                    category: 'time',
+                    dueDateClass: '',
+                    start: new Date("{{ $dates[0] }}"),
+                    end: new Date("{{ $dates[count($dates)-1] }}")
+                },
+            @endforeach
+        ]);
     </script>
 @endsection

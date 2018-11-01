@@ -395,7 +395,7 @@ class AdminController extends Controller
             $subcatImg = time() . '.' . $request->file('sub_cat_img')->getClientOriginalExtension();
 
             $thumb_img = Image::make($request->file('sub_cat_img')->getRealPath())->resize(null, 20,
-                function ($constraint) {
+                function ($constraint) { 
                     $constraint->aspectRatio();
                 });
             $canvas1 = Image::canvas(20, 20);
@@ -783,6 +783,8 @@ class AdminController extends Controller
                 $product->size_chart = $oldSizeChartImg;
             }
         }
+
+        $product->sub_category_id = $request->input("subcategory2_id");
         $product->save();
 
         if ($request->file('addition_image')) {
@@ -1890,6 +1892,7 @@ class AdminController extends Controller
         $productSize = ProductsAttributes::select('id', 'desc')->where('product_id', $product->id)->where('name', 'size')->get();
 
         //ishwar
+        //$subcat = Subcategory::where("id", $product->sub_category_id)->first();
         $subcategory_id = Subcategory2::select('subcategory_id')->where('id',$product->sub_category_id)->first();
         $subcategory2 = SubCategory2::select('id', 'name')->where('subcategory_id',$subcategory_id->subcategory_id)->get();
 

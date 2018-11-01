@@ -149,11 +149,10 @@
                                     
                                     <td>
                                         <div class="btn-group">
-                                            <a href="{{ route('get:edit_products', $product->slug) }}"
+                                            <a href="{{ route('get:seller_edit_products', $product->slug) }}"
                                                class="btn tooltipped btn-small green"
                                                data-delay="20"
-                                               data-tooltip="Edit"><i class="fa fa-edit"
-                                                                      aria-hidden="true"></i>
+                                               data-tooltip="Edit"><i class="fa fa-edit" aria-hidden="true"></i>
                                             </a>
                                             <button class="btn tooltipped btn-warning deleteMember"
                                                     data-delay="20" slug="{{ $product->slug }}"

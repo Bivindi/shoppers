@@ -51,6 +51,7 @@ class CategoriesService
         $subcategories->m_desc = $meta_desc;
         $subcategories->m_keywords = $meta_keyword;
         $subcategories->m_tag = $meta_tags;
+        $subcategories->save();
         return $subcategories;
     }
 

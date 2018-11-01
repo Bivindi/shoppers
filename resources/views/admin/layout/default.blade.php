@@ -31,6 +31,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"
           media="screen,projection">
     <link rel="stylesheet" href="{{ asset('assets/js/plugins/fullcalendar/css/fullcalendar.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/tui.calendar.css') }}">
     <style>
         .error {
             color: red;
@@ -79,7 +80,8 @@ Scripts
 <!-- jQuery Library -->
 <script type="text/javascript" src="{{ asset('assets/js/plugins/jquery-1.11.2.min.js') }}"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-<script src="{{ asset('assets/js/plugins/fullcalendar/js/fullcalendar.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/tui-code-snippet.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/tui.calendar.js') }}"></script>
 <!--materialize js-->
 <script type="text/javascript" src="{{ asset('assets/js/materialize.js') }}"></script>
 <!--scrollbar-->

@@ -166,7 +166,7 @@ Route::group(['middleware' => 'web'], function () {
     });
 
     Route::prefix("seller")->group(function(){
-        Route::get("dashboard", ["as" => "get:seller", "uses" => "DashboardController@getDashboard"]);
+        Route::get("/seller", ["as" => "get:seller", "uses" => "DashboardController@getDashboard"]);
         Route::group(['middleware' => ['admin', 'role:seller']], function () {
             Route::get('add-employee', ['as' => 'get:seller_add_employee', 'uses' => 'EmployeeController@getAddEmployee']);
             Route::post('add-employee', ['as' => 'post:add_employee', 'uses' => 'EmployeeController@postAddEmployee']);
@@ -174,7 +174,7 @@ Route::group(['middleware' => 'web'], function () {
             Route::get('edit-employee/{slug}', ['as' => 'get:seller_edit_employee', 'uses' => 'EmployeeController@getEditEmployee']);
             Route::get('delete-employee', ['as' => 'get:seller_delete_employee', 'uses' => 'EmployeeController@getDeleteEmployee']);
             Route::get('add-holiday', ['as' => 'get:seller_add_holiday', 'uses' => 'AdminController@getAddHoliday']);
-            
+            Route::post('add-holiday', ['as' => 'post:seller_add_holiday', 'uses' => 'SellerController@postAddHoliday']);
 
             //permission route
             Route::get('add-permission', ['as' => 'get:seller_add_permission', 'uses' => 'EmployeeController@getAddPermission']);

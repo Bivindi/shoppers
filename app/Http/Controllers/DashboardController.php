@@ -7,6 +7,7 @@ use App\Http\Requests\ProfileRequest;
 use App\Model\KycDocuments;
 use App\Model\Order;
 use App\Model\User;
+use App\Model\SellerHoliday;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
@@ -92,11 +93,17 @@ class DashboardController extends Controller
     {
         $kycDocs = KycDocuments::select('id', 'kyc_doc')->where('kyc_doc', '!=', NULL)->get();
         $otherDocs = KycDocuments::select('id', 'other_doc')->where('other_doc', '!=', NULL)->get();
-        return view('admin.pages.profile', compact('kycDocs', 'otherDocs'));
+        $hollidays = SellerHoliday::where("user_id", Auth::user()->id)->get();
+        return view('admin.pages.profile', compact('kycDocs', 'otherDocs', 'hollidays'));
     }
 
     public function postProfile(ProfileRequest $request)
     {
+        if(strtotime($request->input("starts")) > strtotime($request->input("ends"))){
+            return back()->withErrors([
+                "message" => "End date cannot be greater than beginning date..!"
+            ]);
+        }
         $this->dashboardManager->saveProfile($request);
         Session::flash('success', 'Profile updated successfully..!');
         return redirect()->back();

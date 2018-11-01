@@ -240,7 +240,7 @@
                     pointStrokeColor: "#ffffff",
                     pointHighlightFill: "#ffffff",
                     pointHighlightStroke: "#ffffff",
-                    @if(count(App\Model\Products::where("user_id", Auth::user()->id)->get()) > 0)
+                    @if(count(App\Model\Products::where("user_id", Auth::user()->id)->get()) > 0 && !Auth::user()->hasRole("admin"))
                         data: ["{{ $totalSale->getSell('01') }}", "{{ $totalSale->getSell('02') }}", "{{ $totalSale->getSell('03') }}", "{{ $totalSale->getSell('04') }}", "{{ $totalSale->getSell('05') }}", "{{ $totalSale->getSell('06') }}", "{{ $totalSale->getSell('07') }}", "{{ $totalSale->getSell('08') }}", "{{ $totalSale->getSell('09') }}", "{{ $totalSale->getSell('10') }}", "{{ $totalSale->getSell('11') }}", "{{ $totalSale->getSell('12') }}"]
                     @else
                         data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

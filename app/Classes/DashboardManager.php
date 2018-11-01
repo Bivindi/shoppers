@@ -11,6 +11,8 @@ namespace App\Classes;
 
 use App\Model\KycDocuments;
 use App\Model\Order;
+use App\Model\SellerHoliday;
+use App\Http\Requests\ProfileRequest;
 use App\Model\SubCategory;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -101,7 +103,7 @@ class DashboardManager
             $user->branch_name = $request->get('branch_name');
         }
         // if ($request->get('shipping_type')) {
-            $user->shipping_type = $request->get('shipping_type');
+            $user->shipping_type = $request->get('shipping_type') ? false : true;
         // }
 
         $user->save();
@@ -120,6 +122,7 @@ class DashboardManager
         if ($request->hasFile('other_docs')) {
             foreach ($request->file('other_docs') as $otherDoc)
                 $back = $otherDoc;
+            
             $backimagename = uniqid(5) . '.' . $back->getClientOriginalExtension();
             $destinationPath = public_path('/aadharcard');
             $back->move($destinationPath, $backimagename);
@@ -128,6 +131,27 @@ class DashboardManager
             $kyc->other_doc = $backimagename;
             $kyc->save();
         }
+
+        $s = new SellerHoliday;
+        $s->remarks = $request->input("remarks");
+        $s->user_id = Auth::user()->id;
+        $s->holiday_dates = $this->getDates($request);
+        $s->national_holliday = $request->input("type") == "national_holliday" ? true : false;
+        $s->save();
         return $user;
+    }
+
+    public function getDates(ProfileRequest $request){
+         $period = new \DatePeriod(
+            new \DateTime($request->input("starts")),
+            new \DateInterval('P1D'),
+            new \DateTime($request->input("ends"))
+        );
+        $dates = "";
+        foreach ($period as $key) {
+            $dates .= $key->format("Y-m-d").",";
+        }
+        $dates = substr($dates, 0, strlen($dates)-1);
+        return $dates;
     }
 }
