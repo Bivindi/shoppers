@@ -338,24 +338,23 @@
 
 @section('page-content')
 
- <!-- =========================
+    <!-- =========================
         Product Details Section
     ============================== -->
 
-    <section id="product-details">
+    <section class="product-details">
         <div class="container">
             <div class="row">
                 <div class="col-12 p0">
                     <div class="page-location">
                         <ul>
-                            <li>
-                            <a href="#">Home / {{ $product->CatName }}</a> / <a href="#">{{ $product->subCatName }}</a> /
-                            </a> <a href="#">{{ $product->subCatName2 }}</a> /
+                            <li><a href="#">
+                                <a href="#">Home / {{ $product->CatName }}</a> / <a href="#">{{ $product->subCatName }}</a> /
                             </a></li>
                             <li><a class="page-location-active" href="#">
                                 {{ $product->name }}
                                 <span class="divider">/</span>
-                                </a></li>
+                            </a></li>
                         </ul>
                     </div>
                 </div>
@@ -370,69 +369,59 @@
                             ========================================= -->
                             <div class="row">
                                 <div class="col-md-12 product-slier-details">
-                                    <div class="sticker-product">
+                                    <ul id="lightSlider">
+                                        @if(isset($slideimages))
+                                            <li data-thumb="{{ asset('100ProductImg/'.$product->product_img) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$product->product_img) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
 
-                                        <ul id="lightSlider">
-                                            @if(isset($slideimages))
-
-                                                <li data-thumb="{{ asset('100ProductImg/'.$product->product_img) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$product->product_img) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-
-                                                @if(!empty($slideimages->image1))
-                                                <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image1) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image1) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-                                                @endif
-
-                                                @if(!empty($slideimages->image2))
-                                                <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image2) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image2) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-                                                @endif
-
-                                                @if(!empty($slideimages->image3))
-                                                <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image3) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image3) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-                                                @endif
-
-                                                @if(!empty($slideimages->image4))
-                                                <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image4) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image4) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-                                                @endif
-
-                                                @if(!empty($slideimages->image5))
-                                                <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image5) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image5) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-                                                @endif
-
-                                            @else
-                                                <li data-thumb="{{ asset('100ProductImg/'.$product->product_img) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$product->product_img) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>
-                                                <!-- @foreach($productColors as $key => $productColor)
-                                                    <li data-thumb="{{ asset('100ProductImg/'.$productColor->screenshots) }}">
-                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$productColor->screenshots) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                </li>        
-                                                @endforeach -->
-                                                @foreach($product->productScreenshots()->select('id','screenshots')->get() as $screenshot)
-                                                    @if($product->isProductColorImage($screenshot->id))
-                                                    <li data-thumb="{{ asset('100ProductImg/'.$screenshot->screenshots) }}">
-                                                        <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$screenshot->screenshots) }}" alt="product-img" style="width: 100%; height: 450px;" />
-                                                    </li>
-                                                    @endif
-                                                @endforeach
+                                            @if(!empty($slideimages->image1))
+                                            <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image1) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image1) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
                                             @endif
-                                            
-                                        </ul>
 
-                                    <div class="ok-listener" style="position: absolute; z-index: 10000; display: none; width: 600px; height: 399px; top: 8px; left: 374.5px;"></div>
-                                    <div id="ok-loupe" style="position: absolute; background: none; pointer-events: none; display: none; z-index: 7879; width: 200px; height: 200px; border: 0px; border-radius: 200px; box-shadow: rgb(0, 0, 0) 0px 0px 5px; left: 489px; top: 258px;"></div>
-                                    </div>
-                                    
+                                            @if(!empty($slideimages->image2))
+                                            <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image2) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image2) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
+                                            @endif
+
+                                            @if(!empty($slideimages->image3))
+                                            <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image3) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image3) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
+                                            @endif
+
+                                            @if(!empty($slideimages->image4))
+                                            <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image4) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image4) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
+                                            @endif
+
+                                            @if(!empty($slideimages->image5))
+                                            <li data-thumb="{{ asset('100ProductImg/'.$slideimages->image5) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$slideimages->image5) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
+                                            @endif
+                                        @else
+                                            <li data-thumb="{{ asset('100ProductImg/'.$product->product_img) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$product->product_img) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>
+                                            <!-- @foreach($productColors as $key => $productColor)
+                                                <li data-thumb="{{ asset('100ProductImg/'.$productColor->screenshots) }}">
+                                                <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$productColor->screenshots) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                            </li>        
+                                            @endforeach -->
+                                            @foreach($product->productScreenshots()->select('id','screenshots')->get() as $screenshot)
+                                                @if($product->isProductColorImage($screenshot->id))
+                                                <li data-thumb="{{ asset('100ProductImg/'.$screenshot->screenshots) }}">
+                                                    <img  class="figure-img img-fluid data-image" src="{{ asset('420ProductImg/'.$screenshot->screenshots) }}" alt="product-img" style="width: 100%; height: 450px;" />
+                                                </li>
+                                                @endif
+                                            @endforeach
+                                        @endif
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -440,7 +429,7 @@
                             <div class="product-details-gallery">
                                 <div class="list-group">
                                     <h4 class="list-group-item-heading product-title">
-                                         {{ ucwords($product->name) }}
+                                        {{ ucwords($product->name) }}
                                     </h4>
                                     <div class="media">
                                         <div class="media-left media-middle">
@@ -462,14 +451,14 @@
                                 <div class="list-group content-list">
                                     <table style="width: 50%">
                                         <tr>
-                                            @if(count($product->getDiscountPrice())>0)
+                                            @if($product->getDiscountPrice()>0)
                                                 <td>
                                                     <span class="price"><i class="fa fa-inr"></i> {{ $product->getDiscountPrice() }}</span>
                                                 </td>
                                                 <td>
                                                     <span class="old-price"><i class="fa fa-inr"></i>{{ $product->price }}</span>
                                                 </td>
-                                                @if(count($product->getDiscountPercentage())>0)
+                                                @if($product->getDiscountPercentage()>0)
                                                     <td><span class="badge badge-secondary wd-badge text-uppercase" style="position: unset;">{{ $product->getDiscountPercentage() }}%</span></td>
                                                 @endif
                                             @else
@@ -487,6 +476,7 @@
                                             @endif
                                         </tr>
                                     </table>
+
                                     <p>
                                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Sold By :  @if($product->username == 'admin')LozyPay @else {{ $product->username }} @endif
                                     </p>
@@ -502,224 +492,246 @@
                                 <div class="list-group product-content">
                                     <p> {!! mb_strimwidth($product->desc, 0, 200, '...') !!}</p>
                                 </div>
-                                <div class="list-group option-content">
-                                    <span>
-                                        <table class="op-tab">
-                                            <tbody>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                <div class="wd-tab-section">
+                    <div class="bd-example bd-example-tabs">
+                        <ul class="nav nav-pills mb-3 wd-tab-menu" id="pills-tab" role="tablist">
+                            <li class="nav-item col-6 col-md">
+                                <a class="nav-link active" href="#options-section" aria-expanded="true" data-toggle="pill" role="tab" aria-controls="options" id="options-tab">Purchase options</a>
+                            </li>
+                            <li class="nav-item col-6 col-md">
+                                <a class="nav-link" id="description-tab" data-toggle="pill" href="#description-section" role="tab" aria-controls="description-section" aria-expanded="true">Description</a>
+                            </li>
+                            <li class="nav-item col-6 col-md">
+                                <a class="nav-link" id="reviews-tab" data-toggle="pill" href="#reviews" role="tab" aria-controls="reviews" aria-expanded="false">Reviews</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade active show specifiction-section"  aria-labelledby="options-tab""  id="options-section" role="tabpanel" aria-expanded="true">
+                                <div class="row">
+                                    <table>
+                                        <form id="productInfo">
+                                            {{ csrf_field() }}
+                                            <div class="col-md-12">
+                                                    @if(count($productColors)>0)
+                                                        <tr>
+                                                            <td class="col-md-6">
+                                                                <span class="mt-10">Color</span>
+                                                            </td>
+                                                            <td class="col-md-6">
+                                                                <span class="color-choose">
+                                                                    @foreach($productColors as $key => $productColor)
+                                                                        <input type="radio" 
+                                                                            class="select-color 
+                                                                            @if(isset($slideimages)) 
+                                                                                @if($productColor->id==$slideimages->attribute_id) 
+                                                                                    active 
+                                                                                @endif 
+                                                                            @endif" 
+                                                                            altss="{{ $key }}" 
+                                                                            id="{{ $productColor->desc }}" 
+                                                                            name="color" 
+                                                                            value="{{ $productColor->desc }}"  
+                                                                            style="display: none;" 
+                                                                            color_price="{{ $productColor->product_price }}" 
+                                                                            attribute_id="{{ $productColor->id }}" @if(isset($slideimages))
+                                                                            @if($productColor->id==$slideimages->attribute_id) checked="checked" @endif @endif
+                                                                        />
+                                                                        <label for="{{ $productColor->desc }}">
+                                                                            <a href="{{ route('get:product_detail2', ['slug' => $product->slug, 'colorid' => $productColor->id]) }}">
+                                                                                <span style="background-color:  {{ $productColor->desc }}" ></span>
+                                                                            </a>
+                                                                        </label>
+                                                                    @endforeach
+                                                                </span>
+                                                            </td>
+                                                        </tr>
+                                                    @endif
+                                                    @if(count($productSizesColors)>0)
+                                                        <tr class="colors">
+                                                            <td>
+                                                                <span class="mt-10">Color</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="color-choose">
+                                                                    @foreach($productSizesColors->unique('desc') as $key => $productColor)
+                                                                        <input type="radio" 
+                                                                            class="select-color 
+                                                                                @if(isset($slideimages)) 
+                                                                                    @if($productColor->id==$slideimages->attribute_id) 
+                                                                                        active 
+                                                                                    @endif
+                                                                                @endif" 
+                                                                            altss="{{ $key }}" 
+                                                                            id="{{ $productColor->desc }}" 
+                                                                            name="color" 
+                                                                            value="{{ $productColor->desc }}"  
+                                                                            style="display: none;" 
+                                                                            color_price="{{ $productColor->product_price }}" 
+                                                                            attribute_id="{{ $productColor->id }}" 
+                                                                            @if(isset($slideimages))
+                                                                                @if($productColor->id==$slideimages->attribute_id) 
+                                                                                    checked="checked" 
+                                                                                @endif
+                                                                            @endif 
+                                                                        />
+                                                                        <label for="{{ $productColor->desc }}">
+                                                                            <a href="{{ route('get:product_detail2', ['slug' => $product->slug, 'colorid' => $productColor->id]) }}">
+                                                                                <span style="background-color:  {{ $productColor->desc }}" ></span>
+                                                                            </a>
+                                                                        </label>
+                                                                    @endforeach
+                                                                </span>
+                                                            </td>
+                                                        </tr>
+                                                        @if($product->quantity != 0)
+                                                        <tr class="qty">
+                                                            <td>
+                                                                <span class="mt-10">Quantity</span>
+                                                                <span> <input id="option-product-qty" type="number" min="1" name="product_qty" value="1" style="max-width: 50px;padding: 5px 0 5px 0;background: #f0f3f6;border: 1px solid #c3c3c3;"></span>
+                                                            </td>
+                                                        </tr>
+                                                        @else
+                                                        <tr class="qty">
+                                                            <td>
+                                                                <span class="mt-10">Qty</span>
+                                                                <span>Out of stock</span>
+                                                            </td>
+                                                        </tr>
+                                                        @endif
+                                                    @endif
+                                                    @if(count($productSizes) > 0)
+                                                        <tr class="size">
+                                                            <td>
+                                                                <span class="mt-10">Size</span>
+                                                                <span class="choose-size mt-10">
 
-                                            <form id="productInfo">
-                                                {{ csrf_field() }}
-                                                @if(count($product->getDiscountPrice())>0)
-                                                    <input type="hidden" name="price" value="{{ $product->getDiscountPrice() }}">
-                                                @else
-                                                    <input type="hidden" name="price" value="@if(isset($productPrice)){{ $product->price + $productPrice->product_price }}@else{{ $product->price }}@endif">
-                                                @endif
-                                                <input type="hidden" name="slug" value="{{ $product->slug }}">    
+                                                                    @foreach($productSizes as $productSize)
+                                                                    <input type="radio" class="select-size" id="{{ $productSize->desc }}" name="size" value="{{ $productSize->desc }}" style="display: none;">
+                                                                    <label for="{{ $productSize->desc }}">
+                                                                        <span class="size-nm">{{ $productSize->desc }}</span>
+                                                                    </label>
+                                                                    @endforeach
+                                                                    <!-- <input type="radio" class="select-size" id="md" name="size" value="md" checked="" style="display: none;">
+                                                                    <label for="md">
+                                                                        <span class="size-nm">M</span>
+                                                                    </label>
 
-                                                <tr>
-                                                    <td style="padding-bottom: 20px;">
-                                                        <span class="av_option">Available Options</span>
-                                                    </td>
-                                                </tr>
+                                                                    <input type="radio" class="select-size" id="lg" name="size" value="lg" checked="" style="display: none;">
+                                                                    <label for="lg">
+                                                                        <span class="size-nm">L</span>
+                                                                    </label>
 
-                                                @if(count($productColors)>0)
-                                                <tr class="colors">
-                                                    <td>
-                                                        <span class="mt-10">Color</span>
-                                                        <span class="color-choose">
+                                                                    <input type="radio" class="select-size" id="xl" name="size" value="xl" checked="" style="display: none;">
+                                                                    <label for="xl">
+                                                                        <span class="size-nm">XL</span>
+                                                                    </label> -->
+                                                                </span>
+                                                                <!-- <span class="mt-10 dropdown">
+                                                                    <a href="" class="size-chart dropdown-toggle" data-toggle="dropdown">Size Chart</a>
+                                                                    <span class="dropdown-menu">
+                                                                        <img src="">
+                                                                    </span>
+                                                                </span> -->
+                                                            </td>
+                                                        </tr>
+                                                    @endif
+                                                    @if(count($productSizes) > 0)
+                                                        <tr class="size">
+                                                            <td>
+                                                                <span class="mt-10">Size</span>
+                                                                <span class="choose-size mt-10">
 
-                                                        @foreach($productColors as $key => $productColor)
-                                                            <input type="radio" class="select-color @if(isset($slideimages)) @if($productColor->id==$slideimages->attribute_id) active @endif
-                                                             @endif" altss="{{ $key }}" id="{{ $productColor->desc }}" name="color" value="{{ $productColor->desc }}"  style="display: none;" color_price="{{ $productColor->product_price }}" attribute_id="{{ $productColor->id }}" @if(isset($slideimages))
-                                                            @if($productColor->id==$slideimages->attribute_id) checked="checked" @endif
-                                                            @endif
-                                                            >
+                                                                    @foreach($productSizes as $productSize)
+                                                                    <input type="radio" class="select-size" id="{{ $productSize->desc }}" name="size" value="{{ $productSize->desc }}" style="display: none;">
+                                                                    <label for="{{ $productSize->desc }}">
+                                                                        <span class="size-nm">{{ $productSize->desc }}</span>
+                                                                    </label>
+                                                                    @endforeach
+                                                                    <!-- <input type="radio" class="select-size" id="md" name="size" value="md" checked="" style="display: none;">
+                                                                    <label for="md">
+                                                                        <span class="size-nm">M</span>
+                                                                    </label>
 
-                                                            <label for="{{ $productColor->desc }}">
-                                                                <a href="{{ route('get:product_detail2', ['slug' => $product->slug, 'colorid' => $productColor->id]) }}">
-                                                                    <span style="background-color:  {{ $productColor->desc }}" ></span>
-                                                                </a>
-                                                            </label>
-                                                         @endforeach
-                                                          </span>
-                                                    </td>
-                                                </tr>
-                                                @endif
+                                                                    <input type="radio" class="select-size" id="lg" name="size" value="lg" checked="" style="display: none;">
+                                                                    <label for="lg">
+                                                                        <span class="size-nm">L</span>
+                                                                    </label>
 
+                                                                    <input type="radio" class="select-size" id="xl" name="size" value="xl" checked="" style="display: none;">
+                                                                    <label for="xl">
+                                                                        <span class="size-nm">XL</span>
+                                                                    </label> -->
+                                                                </span>
+                                                                <!-- <span class="mt-10 dropdown">
+                                                                    <a href="" class="size-chart dropdown-toggle" data-toggle="dropdown">Size Chart</a>
+                                                                    <span class="dropdown-menu">
+                                                                        <img src="">
+                                                                    </span>
+                                                                </span> -->
+                                                            </td>
+                                                        </tr>
+                                                    @endif
+                                                    @if(isset($color_sizes))
+                                                        @if(count($color_sizes) > 0)
+                                                            <tr class="size">
+                                                                <td>
+                                                                    <span class="mt-10">Size</span>
+                                                                    <span class="choose-size mt-10">
 
-                                                <!-- size_color -->
-
-
-                                                @if(count($productSizesColors)>0)
-                                                <tr class="colors">
-                                                    <td>
-                                                        <span class="mt-10">Color</span>
-                                                        <span class="color-choose">
-
-                                                        @foreach($productSizesColors->unique('desc') as $key => $productColor)
-                                                            <input type="radio" class="select-color @if(isset($slideimages)) @if($productColor->id==$slideimages->attribute_id) active @endif
-                                                             @endif" altss="{{ $key }}" id="{{ $productColor->desc }}" name="color" value="{{ $productColor->desc }}"  style="display: none;" color_price="{{ $productColor->product_price }}" attribute_id="{{ $productColor->id }}" @if(isset($slideimages))
-                                                            @if($productColor->id==$slideimages->attribute_id) checked="checked" @endif
-                                                            @endif >
-
-                                                            <label for="{{ $productColor->desc }}">
-                                                                <a href="{{ route('get:product_detail2', ['slug' => $product->slug, 'colorid' => $productColor->id]) }}">
-                                                                    <span style="background-color:  {{ $productColor->desc }}" ></span>
-                                                                </a>
-                                                            </label>
-                                                         @endforeach
-                                                          </span>
-                                                    </td>
-                                                </tr>
-                                                @endif
-
-
-                                                <!-- products colors images -->
-                                               <!--  <tr class="">
-                                                    <td>
-                                                        <span class="mt-10">Color</span>
-                                                        <span class="color-choose-img">
-                                                            <input type="radio" class="select-color1" id="#000" name="color-img" value="#000" checked="" style="display: none;">
-                                                            <label for="#000">
-                                                                <img src="https://rukminim1.flixcart.com/image/144/144/jbqtqq80/mobile/s/8/9/samsung-galaxy-on-nxt-sm-g610fzdiins-original-imafff3naye6xhz5.jpeg">
-                                                            </label>
-
-                                                            <input type="radio" class="select-color1" id="#fff" name="color-img" value="#fff" checked="" style="display: none;">
-                                                            <label for="#fff">
-                                                                <img src="https://rukminim1.flixcart.com/image/144/144/jbqtqq80/mobile/e/z/z/samsung-galaxy-on-nxt-sm-g610fzkiins-original-imafff34qgyjw5pb.jpeg">
-                                                            </label>
-                                                        </span>
-                                                    </td>
-                                                </tr> -->
-                                                @if($product->quantity != 0)
-                                                <tr class="qty">
-                                                    <td>
-                                                        <span class="mt-10">Qty</span>
-                                                        <span> <input id="option-product-qty" type="number" min="1" name="product_qty" value="1" style="max-width: 50px;padding: 5px 0 5px 0;background: #f0f3f6;border: 1px solid #c3c3c3;"></span>
-                                                    </td>
-                                                </tr>
-                                                @else
-                                                <tr class="qty">
-                                                    <td>
-                                                        <span class="mt-10">Qty</span>
-                                                        <span>Out of stock</span>
-                                                    </td>
-                                                </tr>
-                                                @endif
-
-                                                <!-- for sizes -->
-
-                                                @if(count($productSizes) > 0)
-
-                                                <tr class="size">
-                                                    <td>
-                                                        <span class="mt-10">Size</span>
-                                                        <span class="choose-size mt-10">
-
-                                                            @foreach($productSizes as $productSize)
-                                                            <input type="radio" class="select-size" id="{{ $productSize->desc }}" name="size" value="{{ $productSize->desc }}" style="display: none;">
-                                                            <label for="{{ $productSize->desc }}">
-                                                                <span class="size-nm">{{ $productSize->desc }}</span>
-                                                            </label>
-                                                            @endforeach
-                                                            <!-- <input type="radio" class="select-size" id="md" name="size" value="md" checked="" style="display: none;">
-                                                            <label for="md">
-                                                                <span class="size-nm">M</span>
-                                                            </label>
-
-                                                            <input type="radio" class="select-size" id="lg" name="size" value="lg" checked="" style="display: none;">
-                                                            <label for="lg">
-                                                                <span class="size-nm">L</span>
-                                                            </label>
-
-                                                            <input type="radio" class="select-size" id="xl" name="size" value="xl" checked="" style="display: none;">
-                                                            <label for="xl">
-                                                                <span class="size-nm">XL</span>
-                                                            </label> -->
-                                                        </span>
-                                                        <!-- <span class="mt-10 dropdown">
-                                                            <a href="" class="size-chart dropdown-toggle" data-toggle="dropdown">Size Chart</a>
-                                                            <span class="dropdown-menu">
-                                                                <img src="">
-                                                            </span>
-                                                        </span> -->
-                                                    </td>
-                                                </tr>
-                                                @endif
-
-                                                @if(isset($color_sizes))
-                                                @if(count($color_sizes) > 0)
-
-                                                <tr class="size">
-                                                    <td>
-                                                        <span class="mt-10">Size</span>
-                                                        <span class="choose-size mt-10">
-
-                                                            @foreach($color_sizes as $productSize)
-                                                            <input type="radio" class="select-size" id="{{ $productSize->desc2 }}" name="size" value="{{ $productSize->desc2 }}"  style="display: none;" price="{{ $productSize->product_price }}">
-                                                            <label for="{{ $productSize->desc2 }}">
-                                                                <span class="size-nm">{{ $productSize->desc2 }}</span>
-                                                            </label>
-                                                            @endforeach
-                                                            
-                                                        </span>
+                                                                        @foreach($color_sizes as $productSize)
+                                                                            <input type="radio" class="select-size" id="{{ $productSize->desc2 }}" name="size" value="{{ $productSize->desc2 }}"  style="display: none;" price="{{ $productSize->product_price }}">
+                                                                            <label for="{{ $productSize->desc2 }}">
+                                                                                <span class="size-nm">{{ $productSize->desc2 }}</span>
+                                                                            </label>
+                                                                        @endforeach
+                                                                    
+                                                                    </span>
                                                        
-                                                    </td>
-                                                </tr>
-                                                @endif
-                                                @endif
-
-
-                                            
-                                                <tr class="cart">
-                                                    <td>
-                                                        <a class="btn btn_cart btn-add-cart" style="color: #000;" slug="{{ $product->slug }}"><i class="fa fa-shopping-cart" aria-hidden="true" style="margin-right:10px;"></i> Add to cart </a>
-                                                    </td>
-                                                </tr>
-                                            </form>
-
-                                                <tr class="lst">
-                                                    <td>
-                                                        <span style="display: inline-flex;">
-                                                            <a class=" wish wishlist " id="wishlist" productId="{{ $product->id }}" style="position: unset;font-size:15px;"><i class="fa fa-heart-o heart-radius @if($product->isWishListProducts()) wishlisted-icon @endif"></i><br>Wishlist</a>
-                                                            
-                                                            <a class="comp compare compare-product" productId="{{ $product->id }}"><i class="fa fa-signal  @if($product->iscompareProducts()) wishlisted-icon @endif signal-radius"></i><br>Compare</a>
-                                                        </span>
-                                                    </td>
-                                                </tr>
-
-                                            </tbody>
-                                        </table>
-                                    </span>
-                                </div>
-                                <div class="list-group product-desc">
-                                    <h3 class="h3">Product Description</h3>
-                                    <div class="clearfix"></div>
-                                    <hr>
-                                    <div class="clearfix"></div>
-                                    <div class="product-row">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                {!! $product->desc !!}
+                                                                </td>
+                                                            </tr>
+                                                        @endif
+                                                    @endif
+                                                    <tr class="cart">
+                                                        <td>
+                                                            <a class="btn btn_cart btn-add-cart" style="color: #000;" slug="{{ $product->slug }}"><i class="fa fa-shopping-cart" aria-hidden="true" style="margin-right:10px;"></i> Add to cart </a>
+                                                        </td>
+                                                    </tr>
                                             </div>
-                                        </div>                                       
-                                    </div>
-                                    @if($product->url)
-                                    <div class="product-row">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <iframe width="100%" height="315" src="{{ $product->url }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                            </div>
-                                        </div>                                       
-                                    </div>
-                                    @endif
+
+                                            @if($product->getDiscountPrice()>0)
+                                                <input type="hidden" name="price" value="{{ $product->getDiscountPrice() }}">
+                                            @else
+                                                <input type="hidden" name="price" value="@if(isset($productPrice)){{ $product->price + $productPrice->product_price }}@else{{ $product->price }}@endif">
+                                            @endif
+                                            <input type="hidden" name="slug" value="{{ $product->slug }}">
+
+                                            <tr class="lst">
+                                                <td>
+                                                    <a class=" wish wishlist " id="wishlist" productId="{{ $product->id }}" style="position: unset;font-size:15px;"><i class="fa fa-heart-o heart-radius @if($product->isWishListProducts()) wishlisted-icon @endif"></i><br>Wishlist</a>
+                                                </td>
+                                                <td>        
+                                                    <a class="comp compare compare-product" productId="{{ $product->id }}"><i class="fa fa-signal  @if($product->iscompareProducts()) wishlisted-icon @endif signal-radius"></i><br>Compare</a>
+                                                </td>
+                                            </tr>
+                                        </form>
+                                    </table>
                                 </div>
-                                <div class="list-group description_table">
+                            </div>
+                            <div class="tab-pane fade" id="description-section">
+                                <div class="product-tab-content">
+                                    <h4 class="description-title">{{ $product->name }}</h4>
+
                                     <h3>Specifications</h3>
                                     <hr>
                                     <div class="specific">
                                         <h5>General specification</h5>
-                                        <hr>
                                         <table class="specific_table">
                                             <tbody>
                                                 @foreach($product->ProductAttributes()->where('name', '!=', 'color')->where('name', '!=', 'size')->where('name', '!=', 'size_color')->select('name', 'desc')->get() as $productAttribute)
@@ -731,12 +743,24 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                </div>
 
-                                <div class="list-group reviews">
-                                    <h3>Ratings and Reviews</h3>
-                                    <hr>
-                                    <div class="specific">
+                                    @if($product->url)
+                                    <div class="product-row">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <iframe width="100%" height="315" src="{{ $product->url }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                    @endif
+                                </div>
+                            </div>
+                            <div class="tab-pane fade reviews-section" id="reviews">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Ratings and Reviews</h3>
+                                <hr>
+                                <div class="specific">
                                     <h5 class="h5">Average Ratings and Reviews</h5>
                                     <hr>
                                         <div class="row tab-rating-bar-section">
@@ -795,71 +819,63 @@
                                     <div class="specific">
                                         <h5 class="h5">Ratings and Reviews From Market</h5>
                                         <hr>
-                                        <div class="col-12">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <span><h6 class="h6">Review to our Blurb</h6></span>
-                                                </div>
-                                                <div class="col-md-6">
-                                                       <a type="button" href="javascript:void(0);" class="btn-comment btn btn-default btn-sm add-review-btn review_btn" productId="{{ $product->id }}">Write your review!</a>
-                                                </div>
-                                                 <div class="reviewForm"></div>
-                                            </div>
-                                        </div>
-                                    <!-- =================================
-                                        Review Client Section
-                                        ================================= -->
-                                    @foreach($productReviews as $productReview)
-                                    <div class="col-12 review-our-product-area">
+                                        <!-- =================================
+                                            Review Client Section
+                                            ================================= -->
+                                        @if(count($productReviews) > 0)
+                                            @foreach($productReviews as $productReview)
+                                                <div class="col-12 review-our-product-area">
 
-                                        <div class="row">
-                                            <div class="col-12 col-md-6">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="media">
-                                                          <div class="media-left media-middle">
-                                                            
-                                                          </div>
-                                                          <div class="media-body">
-                                                            <h2>{{ $productReview->username }}</h2>
-                                                            <h4 class="media-heading client-title">{{ $productReview->title }}</h4>
-                                                            <div class="client-subtitle">{{ $productReview->desc }}</div>
-                                                          </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6">
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <div class="media">
+                                                                      <div class="media-left media-middle">
+                                                                        
+                                                                      </div>
+                                                                      <div class="media-body">
+                                                                        <h2>{{ $productReview->username }}</h2>
+                                                                        <h4 class="media-heading client-title">{{ $productReview->title }}</h4>
+                                                                        <div class="client-subtitle">{{ $productReview->desc }}</div>
+                                                                      </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-6 review-date-time">
+                                                            <p class="review-date">{{ \Carbon\Carbon::parse($productReview->created_at)->format('d/m/Y') }}</p>
+                                                            <!-- <p class="review-time">at 11:52 pm</p> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12"></div>
+                                                        <div class="col-6 col-md-4">
+                                                            <div class="rating-market-section">
+                                                                <span class="badge badge-secondary wd-star-market-badge text-uppercase">{{ $productReview->rating }} <i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                                                <div class="rating-star">
+                                                                    <div class="review-rating-light-yellow-{{ $productReview->rating }}"></div><span class="rating-number">{{ $productReview->rating }}</span>
+                                                                </div>
+                                                                
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12 col-md-6 review-date-time">
-                                                <p class="review-date">{{ \Carbon\Carbon::parse($productReview->created_at)->format('d/m/Y') }}</p>
-                                                <!-- <p class="review-time">at 11:52 pm</p> -->
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12"></div>
-                                            <div class="col-6 col-md-4">
-                                                <div class="rating-market-section">
-                                                    <span class="badge badge-secondary wd-star-market-badge text-uppercase">{{ $productReview->rating }} <i class="fa fa-star-o" aria-hidden="true"></i></span>
-                                                    <div class="rating-star">
-                                                        <div class="review-rating-light-yellow-{{ $productReview->rating }}"></div><span class="rating-number">{{ $productReview->rating }}</span>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
+                                                @endforeach
+                                            @else
+                                                No review has been registered yet.
+                                            @endif
                                     </div>
-                                    @endforeach
-
-                                 
+                                </div>
                                     </div>
-
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
-        
+            
             @if(isset($similarProducts) &&  count($similarProducts)>0)
                 <div class="row related-product">
                     <h4 class="related-product-title">Related Items</h4>
@@ -888,7 +904,7 @@
                                     </div>
                                     <div class="price-start">
                                         <p>Price start from   <strong class="active-color">
-                                        @if(count($similarProduct->getDiscountPrice())>0)
+                                        @if($similarProduct->getDiscountPrice()>0)
                                             <u><span class="price" style="font-size: 14px;"><i class="fa fa-inr"></i> {{ $similarProduct->getDiscountPrice() }}</span></u>
                                         
                                             <u><span class="old-price"><i class="fa fa-inr"></i>{{ $product->price }}</span></u>
@@ -950,7 +966,7 @@
                                         </div>
                                         <div class="price-start">
                                             <p>Price start from   <strong class="active-color">
-                                            @if(count($recentproduct->getDiscountPrice())>0)
+                                            @if($recentproduct->getDiscountPrice()>0)
                                                 <u><span class="price" style="font-size: 14px;"><i class="fa fa-inr"></i> {{ $recentproduct->getDiscountPrice() }}</span></u>
                                             
                                                 <u><span class="old-price"><i class="fa fa-inr"></i>{{ $product->price }}</span></u>
@@ -985,7 +1001,8 @@
             @endif
         </div>
     </section>
-   @endsection 
+
+@endsection 
 @section('page-js')
 
 <script>
