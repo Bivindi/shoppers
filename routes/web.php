@@ -174,8 +174,7 @@ Route::group(['middleware' => 'web'], function () {
             Route::get('edit-employee/{slug}', ['as' => 'get:seller_edit_employee', 'uses' => 'EmployeeController@getEditEmployee']);
             Route::get('delete-employee', ['as' => 'get:seller_delete_employee', 'uses' => 'EmployeeController@getDeleteEmployee']);
             Route::get('add-holiday', ['as' => 'get:seller_add_holiday', 'uses' => 'AdminController@getAddHoliday']);
-            Route::post('add-holiday', ['as' => 'post:seller_add_holiday', 'uses' => 'SellerController@postAddHoliday']);
-
+         
             //permission route
             Route::get('add-permission', ['as' => 'get:seller_add_permission', 'uses' => 'EmployeeController@getAddPermission']);
             Route::post('add-permission', ['as' => 'post:add_permission', 'uses' => 'EmployeeController@postAddPermission']);
@@ -194,7 +193,7 @@ Route::group(['middleware' => 'web'], function () {
             Route::get('manage-category', ['as' => 'get:seller_manage_category', 'uses' => 'AdminController@getManageCategory']);
             Route::get('edit-category/{slug}', ['as' => 'get:seller_edit_categories', 'uses' => 'AdminController@getEditCategory']);
             Route::get('delete-category', ['as' => 'get:seller_delete_categories', 'uses' => 'AdminController@getDeleteCategory']);
-
+ 
             //subcategory routes
             Route::get('add-subcategory', ['as' => 'get:seller_add_subcategory', 'uses' => 'AdminController@getAddSubCategory']);
             Route::post('add-subcategory', ['as' => 'post:add_subcategory', 'uses' => 'AdminController@postAddSubCategory']);
