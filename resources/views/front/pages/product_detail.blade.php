@@ -511,6 +511,9 @@
                             <li class="nav-item col-6 col-md">
                                 <a class="nav-link" id="reviews-tab" data-toggle="pill" href="#reviews" role="tab" aria-controls="reviews" aria-expanded="false">Reviews</a>
                             </li>
+                            <li class="nav-item col-6 col-md">
+                                <a class="nav-link" id="warranty-tab" data-toggle="pill" href="#warranty" role="tab" aria-controls="warranty" aria-expanded="false">Warranty</a>
+                            </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade active show specifiction-section"  aria-labelledby="options-tab""  id="options-section" role="tabpanel" aria-expanded="true">
@@ -868,6 +871,11 @@
                                     </div>
                                 </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="description-section">
+                                <div class="row">
+                                    
                                 </div>
                             </div>
                         </div>
